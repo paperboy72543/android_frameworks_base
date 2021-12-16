@@ -24,5 +24,7 @@
     <integer name="qs_panel_num_columns">4</integer>
     <integer name="qs_panel_num_columns_landscape">6</integer>
 
+    <!-- SystemUI Google -->
+    <bool name="flag_smartspace">true</bool>
 </resources>
 
