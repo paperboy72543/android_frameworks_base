@@ -327,5 +327,6 @@ public class SecureSettingsValidators {
         VALIDATORS.put(Secure.SHOW_COMBINED_STATUS_BAR_SIGNAL_ICONS, BOOLEAN_VALIDATOR);
         VALIDATORS.put(Secure.GESTURE_NAVBAR_LENGTH_MODE, new InclusiveIntegerRangeValidator(0, 2));
         VALIDATORS.put(Secure.LAUNCHER_HIDDEN_APPS, APP_LIST_VALIDATOR);
+        VALIDATORS.put(Secure.SYSTEM_BLACK_THEME, BOOLEAN_VALIDATOR);
     }
 }
