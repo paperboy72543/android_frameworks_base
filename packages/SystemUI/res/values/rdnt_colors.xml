@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- * Copyright (c) 2020, Wave-OS
+/**
+ * Copyright (c) 2021 Project Radiant
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,22 +14,14 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
-*/
+ */
 -->
 <resources>
 
-    <!-- Bolt Battery Icon -->
-    <dimen name="status_bar_battery_bolt_icon_height">13.5dp</dimen>
-    <dimen name="status_bar_battery_bolt_icon_width">9.7dp</dimen>
-
-    <!-- Dialog margin -->
-    <dimen name="rdnt_margin_dialog">12dp</dimen>
-
     <!-- Media output -->
-    <dimen name="dialog_button_vertical_inset">6dp</dimen>
-    <dimen name="dialog_button_horizontal_padding">16dp</dimen>
-    <dimen name="dialog_button_vertical_padding">8dp</dimen>
-    <dimen name="dialog_side_padding">24dp</dimen>
-    <dimen name="dialog_bottom_padding">18dp</dimen>
+    <color name="media_dialog_background">@android:color/system_neutral1_100</color>
+    <color name="media_dialog_inactive_item_main_content">@android:color/system_accent1_600</color>
+    <color name="media_dialog_item_background">@android:color/system_accent2_50</color>
+    <color name="media_dialog_item_status">@android:color/system_accent1_900</color>
 
 </resources>
