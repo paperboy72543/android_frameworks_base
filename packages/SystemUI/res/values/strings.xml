@@ -2363,4 +2363,13 @@
 
     <!-- Title for User Switch dialog. [CHAR LIMIT=20] -->
     <string name="qs_user_switch_dialog_title">Select user</string>
+
+    <!-- Statusbar icon customization category in icon tuner [CHAR LIMIT=none] -->
+    <string name="category_name_icons">Status bar icon toggles</string>
+
+    <!-- Battery customization category in icon tuner [CHAR LIMIT=none] -->
+    <string name="category_name_battery">Status bar battery customizations</string>
+
+    <!-- Clock customization category in icon tuner [CHAR LIMIT=none] -->
+    <string name="category_name_clock">Status bar clock customizations</string>
 </resources>
