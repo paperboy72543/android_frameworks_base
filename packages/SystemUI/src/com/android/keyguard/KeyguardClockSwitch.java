@@ -100,7 +100,8 @@ public class KeyguardClockSwitch extends RelativeLayout {
 
         if (mDisplayedClockSize != null) {
             boolean landscape = newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE;
-            boolean useLargeClock = mDisplayedClockSize == LARGE && !landscape;
+            boolean portrait = newConfig.orientation == Configuration.ORIENTATION_PORTRAIT;
+            boolean useLargeClock = mDisplayedClockSize == LARGE && !landscape && !portrait;
             animateClockChange(useLargeClock);
         }
     }
@@ -291,7 +292,9 @@ public class KeyguardClockSwitch extends RelativeLayout {
         }
         boolean landscape = getResources().getConfiguration().orientation
                 == Configuration.ORIENTATION_LANDSCAPE;
-        boolean useLargeClock = clockSize == LARGE && !landscape;
+        boolean portrait = getResources().getConfiguration().orientation
+                == Configuration.ORIENTATION_PORTRAIT;
+        boolean useLargeClock = clockSize == LARGE && !landscape && !portrait;
 
         // let's make sure clock is changed only after all views were laid out so we can
         // translate them properly
