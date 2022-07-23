@@ -111,7 +111,7 @@ public class PixelPropsUtils {
                 if (packageName.equals("com.google.android.gms") && key.equals("MODEL")){
                     continue;
                 }
-                setPropValue(key, value);
+                setPropValue("MODEL", "Pixel 5a");
             }
         }
         if (Arrays.asList(packagesToChangePixelXL).contains(packageName)){
